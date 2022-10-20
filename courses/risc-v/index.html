@@ -28,7 +28,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Category: courses | yaoyao_qiekn</title>
+  <title itemprop="name">基于RISC-V架构的模拟器实现 | yaoyao_qiekn</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -377,257 +377,137 @@
   </div>
 </header>
 
-      
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
-<div class="pattern-center ">
-    <div class="pattern-attachment-img">
-        <!-- category 为设置图片时 随机theme 图片 -->
-        
-        <img data-src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/banner/writing.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+
+<div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(h);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/picgo/waitting-for-you-20221020.png">
     </div>
-    <header class="pattern-header ">
-        <h1 class="cat-title">C O U R S E</h1>
-        <span class="cat-des">
-            <p>最猛的1还得是周一</p>
+    <header class="pattern-header single-header">
+        <h1 class="entry-title">
+            基于RISC-V架构的模拟器实现</h1>
+        <p class="entry-census">
+        <span>
+            <a href="https://kimidayo.cn">
+                <img src="https://cdn.jsdelivr.net/gh/Leouas/cdn/img/custom/avatar.jpg">
+            </a>
+        </span>
+        <span>
+            <a href="yaoyao-qiekn">yaoyao-qiekn</a>
+        </span>
+        <span class="bull">
+            ·</span>
+        2022-10-20<span class="bull">
         </span>
     </header>
 </div>
+
 <div id="content" class="site-content">
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
-            
-  <!-- 首页默认取最最新文章集 -->
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/courses/risc-v/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"> --> <!-- 套嵌目录使用（主要为了支援评论）-->
+        <!-- 无配图 -->
+        
+        <div class="entry-content">
+          <h2 id="项目名称"><a href="#项目名称" class="headerlink" title="项目名称"></a>项目名称</h2><p>基于RISC-V架构的模拟器实现</p>
+<h2 id="研究内容"><a href="#研究内容" class="headerlink" title="研究内容"></a>研究内容</h2><p>在NEMU(NUJ emulator)的基础上设计一个完整的可以运行仙剑的riscv64模拟器，设计一个简易的调试器了解GDB的原理。实现差分纠错机制和各种trace功能，加强调试能力。实现基础的外设功能和中断异常，实现对用户态的支持，实现简易文件系统和虚拟文件系统抽象方便数据访问，最终能够运行仙剑奇侠传。注：这个题目很硬核。</p>
+<h2 id="基础指标"><a href="#基础指标" class="headerlink" title="基础指标"></a>基础指标</h2><ol>
+<li>实现类似GDB的简易调试器</li>
+<li>提供运行时环境和基础设施如difftest纠错机制，支持RISCV64IM架构指令集并通过cpu-tests</li>
+<li>实现设备的输入和输出，如串口、键盘、vga、音频等运行彩色版超级马里奥</li>
+<li>实现异常处理机制</li>
+<li>实现系统调用功能并支持常用的系统调用</li>
+<li>实现简易文件系统和虚拟文件系统抽象</li>
+<li>运行仙剑奇侠传</li>
+</ol>
+<h2 id="进阶指标"><a href="#进阶指标" class="headerlink" title="进阶指标"></a>进阶指标</h2><ol>
+<li>实现sv39分页机制</li>
+<li>运行简易的操作系统nanos-lite</li>
+<li>实现抢占多任务</li>
+</ol>
+<h2 id="预期收获"><a href="#预期收获" class="headerlink" title="预期收获"></a>预期收获</h2><p>从”零”开始实现一个完整的计算机系统，理解”程序如何在计算机上运行”。本项目实现一款支持RV64IM的RISC-V模拟器，可以辅助同学们深入了解计算机系统知识，从计算机系统的抽象层视角观察到程序运行的行为。该项目把操作系统和组成原理等计算机基础课程的实践内容串在了一起，对锻炼专业基础实践能力有很大帮助。参考资料网站 (<a target="_blank" rel="noopener" href="https://ysyx.oscc.cc/docs/ics-pa">https://ysyx.oscc.cc/docs/ics-pa</a>)</p>
+<hr>
+
         </div>
-        
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/picgo/your-lie-in-April-banner.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-        
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/courses/risc-v/">
-    基于RISC-V架构的模拟器实现</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2022-10-20</div>
-    <p>
-    仙剑组 Fighting!</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/courses/risc-v/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/courses/rbt/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/picgo/rbt-20221020.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-        
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/courses/rbt/">
-    Red-black Tree</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2022-10-17</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/courses/rbt/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/courses/CLRS/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        
-        <img width="150" height="150" src="https://sayk-01.oss-cn-qingdao.aliyuncs.com/img/CLRS-03-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-        
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/courses/CLRS/">
-    CLRS</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2022-10-10</div>
-    <p>
-    Introduction to Algorithms Solutions 2022 homework</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/courses/CLRS/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-
-  
+        <!-- .entry-content -->
 
 
-            <div class="clearer">
+        
+
+        <!--
+        
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/custom/donate/WeChatQR.jpg"></li>
+              </ul>
             </div>
-        </main>
-        <!--  -->
+          </div>
+        </div>
         
-    </div>
+        -->
+
+        
+
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/music-study-relax/" rel="next">
+              <div class="background">
+                <!-- 文章页上下篇文章无图片一直懒加载
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/picgo/aaron-burden-QJDzYT_K8Xg-unsplash.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/picgo/aaron-burden-QJDzYT_K8Xg-unsplash.jpg">
+                -->
+                
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/picgo/aaron-burden-QJDzYT_K8Xg-unsplash.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" >
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                Music Study Relax</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+
+      
+
+      <!-- author-profile part 2022-10-09 18:20:24
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="" itemprop="url" rel="author"></a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i></p>
+      </section>
+      -->
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
 
-<!-- 
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/courses/risc-v/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/picgo/your-lie-in-April-banner.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-        
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/courses/risc-v/">
-    基于RISC-V架构的模拟器实现</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2022-10-20</div>
-    <p>
-    仙剑组 Fighting!</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/courses/risc-v/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
 
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/courses/rbt/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/yaoyao-qiekn/cdn/img/picgo/rbt-20221020.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-        
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/courses/rbt/">
-    Red-black Tree</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2022-10-17</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/courses/rbt/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/courses/CLRS/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        
-        <img width="150" height="150" src="https://sayk-01.oss-cn-qingdao.aliyuncs.com/img/CLRS-03-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-        
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/courses/CLRS/">
-    CLRS</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2022-10-10</div>
-    <p>
-    Introduction to Algorithms Solutions 2022 homework</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/courses/CLRS/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-
-  
-
- -->
 
     </div>    
     <div class="ins-search">

@@ -1188,7 +1188,7 @@ var home = location.href,
         Siren.spause()
         $('.video-stu').css({
           'bottom': '0px'
-        }).html('Suspended, 有多少人是因为这个视频来了到科大 QAQ')
+        }).html('已暂停 ...')
       }
     }, addsource: function () {
       $('.video-stu').html('loading, welcome to ustc').css({
@@ -1216,7 +1216,7 @@ var home = location.href,
             _btn.removeClass('videolive')
             $('.video-stu').css({
               'bottom': '0px'
-            }).html('Suspended 有多少人是因为这个视频来到科大')
+            }).html('Suspended')
           } else {
             Siren.splay()
             _btn.addClass('videolive')

@@ -6,7 +6,7 @@
   <link href="https://kimidayo.cn/atom.xml" rel="self"/>
   
   <link href="https://kimidayo.cn/"/>
-  <updated>2022-10-29T09:27:21.835Z</updated>
+  <updated>2022-10-30T16:55:34.909Z</updated>
   <id>https://kimidayo.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Always</title>
+    <link href="https://kimidayo.cn/notes/always/"/>
+    <id>https://kimidayo.cn/notes/always/</id>
+    <published>2022-10-30T16:34:04.000Z</published>
+    <updated>2022-10-30T16:55:34.909Z</updated>
+    
+    
+    <summary type="html">The Secret</summary>
+    
+    
+    
+    <category term="notes" scheme="https://kimidayo.cn/categories/notes/"/>
+    
+    
+    <category term="The Secret" scheme="https://kimidayo.cn/tags/The-Secret/"/>
+    
+  </entry>
   
   <entry>
     <title>LaTeX</title>

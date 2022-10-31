@@ -6,7 +6,7 @@
   <link href="https://kimidayo.cn/atom.xml" rel="self"/>
   
   <link href="https://kimidayo.cn/"/>
-  <updated>2022-10-30T17:06:11.813Z</updated>
+  <updated>2022-10-31T14:17:03.565Z</updated>
   <id>https://kimidayo.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sharelinks</title>
+    <link href="https://kimidayo.cn/repost/sharelinks/"/>
+    <id>https://kimidayo.cn/repost/sharelinks/</id>
+    <published>2022-10-31T12:13:06.000Z</published>
+    <updated>2022-10-31T14:17:03.565Z</updated>
+    
+    
+    <summary type="html">Useful URL links of USTC</summary>
+    
+    
+    
+    <category term="repost" scheme="https://kimidayo.cn/categories/repost/"/>
+    
+    
+    <category term="links" scheme="https://kimidayo.cn/tags/links/"/>
+    
+  </entry>
   
   <entry>
     <title>Always</title>
@@ -204,7 +223,7 @@
     <link href="https://kimidayo.cn/notes/hexo-theme-sakura/"/>
     <id>https://kimidayo.cn/notes/hexo-theme-sakura/</id>
     <published>2022-10-10T08:22:21.000Z</published>
-    <updated>2022-10-26T09:45:02.370Z</updated>
+    <updated>2022-10-30T16:51:00.827Z</updated>
     
     
     <summary type="html">hexo-sakura-theme modify</summary>

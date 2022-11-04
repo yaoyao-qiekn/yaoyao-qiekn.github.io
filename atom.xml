@@ -6,7 +6,7 @@
   <link href="https://kimidayo.cn/atom.xml" rel="self"/>
   
   <link href="https://kimidayo.cn/"/>
-  <updated>2022-11-02T09:01:24.113Z</updated>
+  <updated>2022-11-04T08:17:46.942Z</updated>
   <id>https://kimidayo.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Self-Study</title>
+    <link href="https://kimidayo.cn/notes/self-study/"/>
+    <id>https://kimidayo.cn/notes/self-study/</id>
+    <published>2022-11-04T06:13:59.000Z</published>
+    <updated>2022-11-04T08:17:46.942Z</updated>
+    
+    
+    <summary type="html">a list of websites</summary>
+    
+    
+    
+    <category term="notes" scheme="https://kimidayo.cn/categories/notes/"/>
+    
+    
+    <category term="cs" scheme="https://kimidayo.cn/tags/cs/"/>
+    
+  </entry>
   
   <entry>
     <title>Sharelinks</title>
@@ -147,9 +166,9 @@
     <category term="courses" scheme="https://kimidayo.cn/categories/courses/"/>
     
     
-    <category term="risc-v" scheme="https://kimidayo.cn/tags/risc-v/"/>
-    
     <category term="to-do" scheme="https://kimidayo.cn/tags/to-do/"/>
+    
+    <category term="risc-v" scheme="https://kimidayo.cn/tags/risc-v/"/>
     
   </entry>
   
